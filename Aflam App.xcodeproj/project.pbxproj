@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEC60BA22DF38DF00D4CFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */; };
+		BAEC60BC22DF38DF00D4CFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */; };
+		BAEC60BF22DF38DF00D4CFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */; };
+		BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */; };
+		BAEC60C422DF38E100D4CFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */; };
+		BAEC60C722DF38E100D4CFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAEC60B622DF38DF00D4CFA9 /* Aflam App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflam App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAEC60BE22DF38DF00D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAEC60C122DF38DF00D4CFA9 /* Aflam_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aflam_App.xcdatamodel; sourceTree = "<group>"; };
+		BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEC60C622DF38E100D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAEC60C822DF38E100D4CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEC60B322DF38DF00D4CFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEC60AD22DF38DF00D4CFA9 = {
+			isa = PBXGroup;
+			children = (
+				BAEC60B822DF38DF00D4CFA9 /* Aflam App */,
+				BAEC60B722DF38DF00D4CFA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEC60B722DF38DF00D4CFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60B622DF38DF00D4CFA9 /* Aflam App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEC60B822DF38DF00D4CFA9 /* Aflam App */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */,
+				BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */,
+				BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */,
+				BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */,
+				BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */,
+				BAEC60C822DF38E100D4CFA9 /* Info.plist */,
+				BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */,
+			);
+			path = "Aflam App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEC60B522DF38DF00D4CFA9 /* Aflam App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEC60CB22DF38E100D4CFA9 /* Build configuration list for PBXNativeTarget "Aflam App" */;
+			buildPhases = (
+				BAEC60B222DF38DF00D4CFA9 /* Sources */,
+				BAEC60B322DF38DF00D4CFA9 /* Frameworks */,
+				BAEC60B422DF38DF00D4CFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aflam App";
+			productName = "Aflam App";
+			productReference = BAEC60B622DF38DF00D4CFA9 /* Aflam App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEC60AE22DF38DF00D4CFA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Developers;
+				TargetAttributes = {
+					BAEC60B522DF38DF00D4CFA9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BAEC60B122DF38DF00D4CFA9 /* Build configuration list for PBXProject "Aflam App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEC60AD22DF38DF00D4CFA9;
+			productRefGroup = BAEC60B722DF38DF00D4CFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEC60B522DF38DF00D4CFA9 /* Aflam App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEC60B422DF38DF00D4CFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEC60C722DF38E100D4CFA9 /* LaunchScreen.storyboard in Resources */,
+				BAEC60C422DF38E100D4CFA9 /* Assets.xcassets in Resources */,
+				BAEC60BF22DF38DF00D4CFA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEC60B222DF38DF00D4CFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEC60BC22DF38DF00D4CFA9 /* ViewController.swift in Sources */,
+				BAEC60BA22DF38DF00D4CFA9 /* AppDelegate.swift in Sources */,
+				BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEC60BE22DF38DF00D4CFA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEC60C622DF38E100D4CFA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEC60C922DF38E100D4CFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEC60CA22DF38E100D4CFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEC60CC22DF38E100D4CFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflam App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developers.Aflam-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEC60CD22DF38E100D4CFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Aflam App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developers.Aflam-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEC60B122DF38DF00D4CFA9 /* Build configuration list for PBXProject "Aflam App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEC60C922DF38E100D4CFA9 /* Debug */,
+				BAEC60CA22DF38E100D4CFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEC60CB22DF38E100D4CFA9 /* Build configuration list for PBXNativeTarget "Aflam App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEC60CC22DF38E100D4CFA9 /* Debug */,
+				BAEC60CD22DF38E100D4CFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAEC60C122DF38DF00D4CFA9 /* Aflam_App.xcdatamodel */,
+			);
+			currentVersion = BAEC60C122DF38DF00D4CFA9 /* Aflam_App.xcdatamodel */;
+			path = Aflam_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAEC60AE22DF38DF00D4CFA9 /* Project object */;
+}
