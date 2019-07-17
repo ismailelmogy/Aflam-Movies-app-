@@ -13,9 +13,12 @@
 		BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */; };
 		BAEC60C422DF38E100D4CFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */; };
 		BAEC60C722DF38E100D4CFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */; };
+		BAEC60D022DF3A2500D4CFA9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */; };
+		DBF6926D608760EA32A6BA8B /* Pods_Aflam_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA24F27BDCE28FF444966348 /* Pods_Aflam_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EAC60B5DFEB39579099F3ED /* Pods-Aflam App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflam App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App.release.xcconfig"; sourceTree = "<group>"; };
 		BAEC60B622DF38DF00D4CFA9 /* Aflam App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflam App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEC60C622DF38E100D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEC60C822DF38E100D4CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EA24F27BDCE28FF444966348 /* Pods_Aflam_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aflam_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F931127E48A855675DF02BE4 /* Pods-Aflam App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflam App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF6926D608760EA32A6BA8B /* Pods_Aflam_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E174AB4CC697B1090A1EE33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F931127E48A855675DF02BE4 /* Pods-Aflam App.debug.xcconfig */,
+				3EAC60B5DFEB39579099F3ED /* Pods-Aflam App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96C382309FD9A4E305211105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA24F27BDCE28FF444966348 /* Pods_Aflam_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAEC60AD22DF38DF00D4CFA9 = {
 			isa = PBXGroup;
 			children = (
 				BAEC60B822DF38DF00D4CFA9 /* Aflam App */,
 				BAEC60B722DF38DF00D4CFA9 /* Products */,
+				4E174AB4CC697B1090A1EE33 /* Pods */,
+				96C382309FD9A4E305211105 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		BAEC60B822DF38DF00D4CFA9 /* Aflam App */ = {
 			isa = PBXGroup;
 			children = (
+				BAEC60CE22DF38E900D4CFA9 /* Utils */,
 				BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */,
 				BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */,
 				BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */,
@@ -67,6 +94,14 @@
 			path = "Aflam App";
 			sourceTree = "<group>";
 		};
+		BAEC60CE22DF38E900D4CFA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEC60CB22DF38E100D4CFA9 /* Build configuration list for PBXNativeTarget "Aflam App" */;
 			buildPhases = (
+				8B52CA83335F90BC74637B77 /* [CP] Check Pods Manifest.lock */,
 				BAEC60B222DF38DF00D4CFA9 /* Sources */,
 				BAEC60B322DF38DF00D4CFA9 /* Frameworks */,
 				BAEC60B422DF38DF00D4CFA9 /* Resources */,
+				DF2F1F4FDB5F5F05E1FFBB4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +170,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B52CA83335F90BC74637B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aflam App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2F1F4FDB5F5F05E1FFBB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAEC60B222DF38DF00D4CFA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +225,7 @@
 				BAEC60BC22DF38DF00D4CFA9 /* ViewController.swift in Sources */,
 				BAEC60BA22DF38DF00D4CFA9 /* AppDelegate.swift in Sources */,
 				BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */,
+				BAEC60D022DF3A2500D4CFA9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +367,7 @@
 		};
 		BAEC60CC22DF38E100D4CFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F931127E48A855675DF02BE4 /* Pods-Aflam App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +385,7 @@
 		};
 		BAEC60CD22DF38E100D4CFA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAC60B5DFEB39579099F3ED /* Pods-Aflam App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
