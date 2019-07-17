@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BAEC60BA22DF38DF00D4CFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */; };
-		BAEC60BC22DF38DF00D4CFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */; };
 		BAEC60BF22DF38DF00D4CFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */; };
 		BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */; };
 		BAEC60C422DF38E100D4CFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */; };
 		BAEC60C722DF38E100D4CFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */; };
 		BAEC60D022DF3A2500D4CFA9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */; };
+		BAEC60D222DF3D2B00D4CFA9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60D122DF3D2B00D4CFA9 /* Config.swift */; };
+		BAEC60D422DF3D6A00D4CFA9 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60D322DF3D6A00D4CFA9 /* CheckInternet.swift */; };
+		BAEC60D822DF3DC300D4CFA9 /* APICallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60D722DF3DC300D4CFA9 /* APICallManager.swift */; };
+		BAEC60DB22DF3E9300D4CFA9 /* MovieVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60DA22DF3E9300D4CFA9 /* MovieVCCell.swift */; };
+		BAEC60DE22DF3F3800D4CFA9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60DD22DF3F3800D4CFA9 /* Movie.swift */; };
+		BAEC60E222DF3FDC00D4CFA9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60E122DF3FDC00D4CFA9 /* LoginVC.swift */; };
+		BAEC60E422DF401700D4CFA9 /* MovieDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60E322DF401700D4CFA9 /* MovieDetailsVC.swift */; };
+		BAEC60E622DF404D00D4CFA9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60E522DF404D00D4CFA9 /* ProfileVC.swift */; };
+		BAEC60E822DF40F200D4CFA9 /* MoviesCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC60E722DF40F200D4CFA9 /* MoviesCV.swift */; };
 		DBF6926D608760EA32A6BA8B /* Pods_Aflam_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA24F27BDCE28FF444966348 /* Pods_Aflam_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,13 +29,21 @@
 		3EAC60B5DFEB39579099F3ED /* Pods-Aflam App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflam App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App.release.xcconfig"; sourceTree = "<group>"; };
 		BAEC60B622DF38DF00D4CFA9 /* Aflam App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aflam App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAEC60BE22DF38DF00D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAEC60C122DF38DF00D4CFA9 /* Aflam_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aflam_App.xcdatamodel; sourceTree = "<group>"; };
 		BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEC60C622DF38E100D4CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEC60C822DF38E100D4CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BAEC60D122DF3D2B00D4CFA9 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BAEC60D322DF3D6A00D4CFA9 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		BAEC60D722DF3DC300D4CFA9 /* APICallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallManager.swift; sourceTree = "<group>"; };
+		BAEC60DA22DF3E9300D4CFA9 /* MovieVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVCCell.swift; sourceTree = "<group>"; };
+		BAEC60DD22DF3F3800D4CFA9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BAEC60E122DF3FDC00D4CFA9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BAEC60E322DF401700D4CFA9 /* MovieDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsVC.swift; sourceTree = "<group>"; };
+		BAEC60E522DF404D00D4CFA9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		BAEC60E722DF40F200D4CFA9 /* MoviesCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCV.swift; sourceTree = "<group>"; };
 		EA24F27BDCE28FF444966348 /* Pods_Aflam_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aflam_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F931127E48A855675DF02BE4 /* Pods-Aflam App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aflam App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aflam App/Pods-Aflam App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,14 +98,14 @@
 		BAEC60B822DF38DF00D4CFA9 /* Aflam App */ = {
 			isa = PBXGroup;
 			children = (
+				BAEC60E922DF412A00D4CFA9 /* Supporting Files */,
 				BAEC60CE22DF38E900D4CFA9 /* Utils */,
+				BAEC60E022DF3FAA00D4CFA9 /* Controller */,
+				BAEC60D622DF3DA800D4CFA9 /* View */,
+				BAEC60DC22DF3F2400D4CFA9 /* Model */,
+				BAEC60D522DF3D9900D4CFA9 /* API */,
 				BAEC60B922DF38DF00D4CFA9 /* AppDelegate.swift */,
-				BAEC60BB22DF38DF00D4CFA9 /* ViewController.swift */,
-				BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */,
-				BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */,
-				BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */,
 				BAEC60C822DF38E100D4CFA9 /* Info.plist */,
-				BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */,
 			);
 			path = "Aflam App";
 			sourceTree = "<group>";
@@ -98,8 +114,64 @@
 			isa = PBXGroup;
 			children = (
 				BAEC60CF22DF3A2500D4CFA9 /* Utils.swift */,
+				BAEC60D122DF3D2B00D4CFA9 /* Config.swift */,
+				BAEC60D322DF3D6A00D4CFA9 /* CheckInternet.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BAEC60D522DF3D9900D4CFA9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60D722DF3DC300D4CFA9 /* APICallManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BAEC60D622DF3DA800D4CFA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60D922DF3E2700D4CFA9 /* Cell */,
+				BAEC60BD22DF38DF00D4CFA9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAEC60D922DF3E2700D4CFA9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60DA22DF3E9300D4CFA9 /* MovieVCCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BAEC60DC22DF3F2400D4CFA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60DD22DF3F3800D4CFA9 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAEC60E022DF3FAA00D4CFA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60E122DF3FDC00D4CFA9 /* LoginVC.swift */,
+				BAEC60E322DF401700D4CFA9 /* MovieDetailsVC.swift */,
+				BAEC60E522DF404D00D4CFA9 /* ProfileVC.swift */,
+				BAEC60E722DF40F200D4CFA9 /* MoviesCV.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAEC60E922DF412A00D4CFA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC60C522DF38E100D4CFA9 /* LaunchScreen.storyboard */,
+				BAEC60C322DF38E100D4CFA9 /* Assets.xcassets */,
+				BAEC60C022DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAEC60BC22DF38DF00D4CFA9 /* ViewController.swift in Sources */,
+				BAEC60E622DF404D00D4CFA9 /* ProfileVC.swift in Sources */,
+				BAEC60E422DF401700D4CFA9 /* MovieDetailsVC.swift in Sources */,
+				BAEC60D422DF3D6A00D4CFA9 /* CheckInternet.swift in Sources */,
+				BAEC60DE22DF3F3800D4CFA9 /* Movie.swift in Sources */,
 				BAEC60BA22DF38DF00D4CFA9 /* AppDelegate.swift in Sources */,
+				BAEC60E222DF3FDC00D4CFA9 /* LoginVC.swift in Sources */,
+				BAEC60D222DF3D2B00D4CFA9 /* Config.swift in Sources */,
 				BAEC60C222DF38DF00D4CFA9 /* Aflam_App.xcdatamodeld in Sources */,
+				BAEC60DB22DF3E9300D4CFA9 /* MovieVCCell.swift in Sources */,
+				BAEC60D822DF3DC300D4CFA9 /* APICallManager.swift in Sources */,
+				BAEC60E822DF40F200D4CFA9 /* MoviesCV.swift in Sources */,
 				BAEC60D022DF3A2500D4CFA9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
